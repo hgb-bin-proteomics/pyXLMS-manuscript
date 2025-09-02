@@ -1,0 +1,13 @@
+{
+  "include": [
+    "src",
+    "gui"
+  ],
+
+  "exclude": [
+    "**/__pycache__"
+  ],
+
+  "pythonVersion": "3.7",
+  "pythonPlatform": "Linux"
+}
