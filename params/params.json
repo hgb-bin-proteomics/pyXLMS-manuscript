@@ -1,0 +1,75 @@
+{
+    "MS Files": "ms/files.json",
+    "FASTA DB": "fasta/cas9_uniprotkb_proteome_UP000005640_AND_revi_2025_11_03.fasta",
+    "Enzyme": "Trypsin",
+    "Maximum Missed Cleavages": 3,
+    "Minimum Peptide Length": 6,
+    "Maximum Peptide Length": 30,
+    "MS1 Tolerance": "5 ppm",
+    "MS2 Tolerance": "10 ppm",
+    "Crosslink Modification": {
+        "DSBSO": {
+            "at": [
+                "K",
+                "N-Terminus"
+            ],
+            "delta mass": "+308.03883"
+        }
+    },
+    "Fixed Modifications": [
+        {
+            "Carbamidomethyl": {
+                "at": [
+                    "C"
+                ],
+                "delta mass": "+57.021464"
+            }
+        }
+    ],
+    "Variable Modifications [Crosslink Searches]": [
+        {
+            "Oxidation": {
+                "at": [
+                    "M"
+                ],
+                "delta mass": "+15.994915"
+            }
+        }
+    ],
+    "Variable Modifications [Linear Searches]": [
+        {
+            "Oxidation": {
+                "at": [
+                    "M"
+                ],
+                "delta mass": "+15.994915"
+            }
+        },
+        {
+            "DSBSO Amidated": {
+                "at": [
+                    "K"
+                ],
+                "delta mass": "+325.06538"
+            }
+        },
+        {
+            "DSBSO Hydrolyzed": {
+                "at": [
+                    "K"
+                ],
+                "delta mass": "+326.04939"
+            }
+        },
+        {
+            "DSBSO Tris": {
+                "at": [
+                    "K"
+                ],
+                "delta mass": "+429.11272"
+            }
+        }
+    ],
+    "Target FDR": 0.01,
+    "Target FDR %": 1.0
+}
