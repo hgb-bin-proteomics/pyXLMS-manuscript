@@ -1,0 +1,22 @@
+{
+    "files": [
+        {
+            "id": 0,
+            "pride": "PXD061173",
+            "name": "Cas9_HeLa_Cyt_r1.raw",
+            "url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2025/08/PXD061173/Cas9_HeLa_Cyt_r1.raw"
+        },
+        {
+            "id": 1,
+            "pride": "PXD061173",
+            "name": "Cas9_HeLa_Cyt_r2.raw",
+            "url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2025/08/PXD061173/Cas9_HeLa_Cyt_r2.raw"
+        },
+        {
+            "id": 2,
+            "pride": "PXD061173",
+            "name": "Cas9_HeLa_Cyt_r3.raw",
+            "url": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2025/08/PXD061173/Cas9_HeLa_Cyt_r3.raw"
+        }
+    ]
+}
