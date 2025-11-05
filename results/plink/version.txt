@@ -1,0 +1,6 @@
+name: pLink v3.0.17
+tag: v3.0.17
+repository: https://github.com/pFindStudio/pLink3.git
+ref: 18401de
+ref_url: https://github.com/pFindStudio/pLink3/commit/18401de7f86e5be81e8054009d11a2231358eeb6
+download: https://github.com/pFindStudio/pLink3/releases/tag/v3.0.17
