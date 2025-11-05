@@ -1,0 +1,40 @@
+------------------------
+Cross-Linked Results
+------------------------
+FDR: 0.01 at Peptide Level
+Cross-Linked Spectra: 772
+Cross-Linked Peptides: 592
+Cross-Linked Sites: 459
+
+------------------------
+Spectrum View
+------------------------
+Spectra: 287637
+Spectra (above threshold): 24046 8.4%
+Spectra (below threshold and decoy): 209554 72.9%
+Spectra (unknown): 54037 18.8%
+Cross-Linked Spectra (above threshold): 772 3.2%
+Loop-Linked Spectra (above threshold): 136 0.6%
+Mono-Linked Spectra (above threshold): 925 3.8%
+Regular Spectra (above threshold): 22213 92.4%
+
+------------------------
+Peptide View (above threshold)
+------------------------
+Cross-Linked Peptides: 592 3.6%
+Loop-Linked Peptides: 72 0.4%
+Mono-Linked Peptides: 319 1.9%
+Regular Peptides: 15406 94.0%
+
+------------------------
+Linked Sites View (above threshold)
+------------------------
+Cross-Linked Sites: 459 90.0%
+Loop-Linked Sites: 51 10.0%
+
+------------------------
+Time Cost
+------------------------
+Start Time: Wed Nov 05 18:29:14 2025
+End Time: Wed Nov 05 18:29:36 2025
+Time Cost: 21.7s
