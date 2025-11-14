@@ -1,0 +1,10 @@
+[project]
+name = "pyXLMS-manuscript"
+version = "0.1.0"
+description = "Results and code for the pyXLMS manuscript."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jupyterlab>=4.4.10",
+    "pyxlms>=1.7.3",
+]
