@@ -1,0 +1,6 @@
+name: Scout v2.0.0 (Beta)
+tag: v2.0.0
+repository: https://github.com/theliulab/Scout.git
+ref: 98953a1
+ref_url: https://github.com/theliulab/Scout/commit/98953a15351bb2330670d92777cea150c8939ac0
+download: https://github.com/theliulab/Scout/releases/tag/v2.0.0

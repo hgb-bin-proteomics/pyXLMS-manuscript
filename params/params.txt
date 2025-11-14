@@ -1,0 +1,30 @@
+PRIDE Project:
+- PXD061173
+  - link: https://www.ebi.ac.uk/pride/archive/projects/PXD061173
+
+Files:
+- Cas9_HeLa_Cyt_r1.raw
+  - download: https://ftp.pride.ebi.ac.uk/pride/data/archive/2025/08/PXD061173/Cas9_HeLa_Cyt_r1.raw
+- Cas9_HeLa_Cyt_r2.raw
+  - download: https://ftp.pride.ebi.ac.uk/pride/data/archive/2025/08/PXD061173/Cas9_HeLa_Cyt_r2.raw
+- Cas9_HeLa_Cyt_r3.raw
+  - https://ftp.pride.ebi.ac.uk/pride/data/archive/2025/08/PXD061173/Cas9_HeLa_Cyt_r3.raw
+
+Fasta:
+-  Human SwissProt retrieved 2025-11-03 (yyyy-mm-dd) plus Cas9 Halo
+  - name: cas9_uniprotkb_proteome_UP000005640_AND_revi_2025_11_03.fasta
+  - local: /fasta/cas9_uniprotkb_proteome_UP000005640_AND_revi_2025_11_03.fasta
+  - download: https://github.com/hgb-bin-proteomics/pyXLMS-manuscript/raw/refs/heads/master/fasta/cas9_uniprotkb_proteome_UP000005640_AND_revi_2025_11_03.fasta
+
+Settings:
+- MS1 Tolerance: 5 ppm
+- MS2 Tolerance: 10 ppm
+- Enzyme: Trypsin
+- Maximum Missed Cleavages: 3
+- Minimum Peptide Length: 6
+- Maximum Peptide Length: 30
+- Crosslink Modification: DSBSO [K, N-Terminus; +308.03883]
+- Fixed Modifications: Carbamidomethyl [C; +57.021464]
+- Variable Modifications [Crosslink Searches]: Oxidation [M; +15.994915]
+- Variable Modifications [Linear Searches]: Oxidation [M; +15.994915], DSBSO Hydrolyzed [K; +326.04939], DSBSO Amidated [K; +325.06538], DSBSO Tris [K; +429.11272]
+- FDR: 1%

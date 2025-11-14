@@ -1,0 +1,2 @@
+version: XlinkX used through Proteome Discoverer 3.2.0.450
+workflow: Cleavable_MS2

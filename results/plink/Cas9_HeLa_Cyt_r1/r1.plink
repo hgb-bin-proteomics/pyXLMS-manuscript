@@ -1,0 +1,58 @@
+[version]
+version = 3.0.17
+[score]
+simple_score_type = ST_XLINK_OL2A
+refined_score_type = ST_XLINK_MDM
+refined_score_mode = 20
+[flow]
+flow_type = FT_ION_INDEX
+ion_index_mode = IIM_TURBO_PRESCORE
+search_peptide_number = 10
+mic_filter_threshold = 3
+query_peaks_number = 300
+preproc_type = PPT_XLINK_CLV3
+frag_index_ion_type = FIIT_PEP
+charge_min_xl = 3
+processor_num = 12
+result_output_path = C:\Users\Micha\Documents\pLink\\r1\
+[database]
+db_name = cas9_uniprotkb_proteome_UP000005640_AND_revi_2025_11_03
+enzyme_name = Trypsin
+max_miss_site = 3
+min_pep_mass = 600
+max_pep_mass = 6000
+min_pep_len = 6
+max_pep_len = 30
+[modification]
+fix_total = 1
+fix_mod1 = Carbamidomethyl[C]
+var_total = 1
+var_mod1 = Oxidation[M]
+[linker]
+linker_total = 1
+linker1 = DSBSO
+[ions]
+fragment_tol = 10
+fragment_tol_type = ppm
+peptide_tol = 10
+peptide_tol_type = ppm
+simple_instrument = HCD-MS-CLV-COARSE
+refined_instrument = HCD-MS-CLV-FINE
+[filter]
+filter_tol = 5
+filter_tol_type = ppm
+FDR = 0.01
+FDR_factor = 1
+inter_precursor_alpha_min_seq_cov = 0.0
+inter_precursor_beta_min_seq_cov = 0.0
+FDR_estimate_strategy = EFT_PEPTIDE_LEVEL
+fdr_separate_or_global = EFT_INTRA_INTER_SEPARATE_FDR
+evalue = 0
+[spectrum]
+spec_title = result_2025.11.05
+spec_type = pf
+spec_num = 1
+spec_path1 = C:\Users\Micha\Documents\GitHub\pyXLMS-manuscript\fasta\Cas9_HeLa_Cyt_r1_HCDFT.pf2
+[quant]
+quant = 1|None
+search_n14n15 = 0
