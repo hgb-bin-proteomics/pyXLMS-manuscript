@@ -1,11 +1,11 @@
 {
   "include": [
-    "src",
-    "gui"
+    "."
   ],
 
   "exclude": [
-    "**/__pycache__"
+    "**/__pycache__",
+    "**/.venv"
   ],
 
   "pythonVersion": "3.7",
