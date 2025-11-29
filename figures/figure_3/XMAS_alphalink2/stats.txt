@@ -1,0 +1,4 @@
+mean: 31.806849435272603
+median: 23.9167763295976
+satisfied: 17
+violated: 10
