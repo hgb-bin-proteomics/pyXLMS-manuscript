@@ -1801,12 +1801,14 @@ name = "pyxlms-manuscript"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "biopandas" },
     { name = "jupyterlab" },
     { name = "pyxlms" },
 ]
 
 [package.metadata]
 requires-dist = [
+    { name = "biopandas", specifier = ">=0.5.1" },
     { name = "jupyterlab", specifier = ">=4.4.10" },
     { name = "pyxlms", specifier = ">=1.7.3" },
 ]
