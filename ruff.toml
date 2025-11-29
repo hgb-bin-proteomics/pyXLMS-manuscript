@@ -27,6 +27,7 @@ exclude = [
     "site-packages",
     "venv",
     "results/alphalink2/alphalink2.ipynb",
+    "results/alphafold2/AlphaFold2.ipynb",
 ]
 
 # Same as Black.
