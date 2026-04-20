@@ -1,0 +1,6 @@
+name: Scout v2.1.0
+tag: 2.1.0
+repository: https://github.com/diogobor/Scout.git
+ref: 9675d45
+ref_url: https://github.com/diogobor/Scout/commit/9675d45348f0a3da7fb1f9e7191155b141096ef7
+download: https://github.com/diogobor/Scout/releases/tag/2.1.0
